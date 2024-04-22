@@ -1,0 +1,41 @@
+Task1
+========================
+apply filter and paginations when read user list
+
+⭐ Bonus Point: Demonstrated capability to control the returned payload fields, akin to the schema offered by GraphQL
+
+
+Task2
+=======================
+
+
+Task 3: API Key
+=================================================
+Add API key restrictions, Use middleware to verify api keys
+
+⭐ handle errors when api key is missing or incorrect.
+
+
+Task 6: Unit test
+=========================================================
+Add unit test in file 
+src/index.test.ts
+. run test with cli yarn test in a new terminal.
+
+ test should cover all the
+---------------------------------------------------------
+
+branches of the functions.
+edege cases
+
+
+ Bonus Task: DB design
+============================================
+use db migrations script to set up relationship between user and book, so that 1 user can be the author of many books and 1 book can be co-authored by many authors.
+
+ Expectations:
+---------------------------------
+
+set the correct db relationship.
+Rest API get author(s) can return book ids. get book[s] can return author ids.
+
